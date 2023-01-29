@@ -1,0 +1,51 @@
+.line {
+  height: 2px;
+  width: 100%;
+  color: rgb(224, 52, 52);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 32px;
+  font-style: italic;
+}
+
+.title {
+  color: green;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: serif; */
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.text-2 {
+  text-align: left;
+}
+
+.text-3 {
+  text-align: right;
+  text-decoration: underline wavy;
+}
+
+.text-4 {
+  text-shadow: 2px 3px 1 #000;
+}
+
+.text-5 {
+  text-transform: lowercase;
+  text-align: justify;
+}
+
+.text-6 {
+  text-indent: 50px;
+  letter-spacing: 5px;
+}
+
+.text-7 {
+  word-spacing: 20px;
+}
+
+.text-8 {
+  white-space: pre-wrap;
+}
