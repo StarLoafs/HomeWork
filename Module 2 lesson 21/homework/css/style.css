@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Oswald Regular"),
+        local("Oswald-Regular"),
+        url("../fonts/Oswald-Regular.woff2") format("woff2"),
+        url("../fonts/Oswald-Regular.woff") format("woff"),
+        url("../fonts/Oswald-Regular.eot") format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Oswald Bold"),
+        local("Oswald-Bold"),
+        url("../fonts/Oswald-Bold.woff2") format("woff2"),
+        url("../fonts/Oswald-Bold.woff") format("woff"),
+        url("../fonts/Oswald-Bold.eot") format("eot");
+  font-display: swap;
+}
+
+.greet__line {
+  background-color: black;
+  height: 2px;
+
+}
+
+.greet__text-1 {
+  font-family: "Oswald", sans-serif;
+}
+
+.greet__text-2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+.greet__text-3 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: normal;
+}
