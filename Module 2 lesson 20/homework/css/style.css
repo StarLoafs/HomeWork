@@ -1,0 +1,8 @@
+.text {
+  font-size: 20em;
+}
+
+.text__title {
+  font-size: 3rem;
+  line-height: 200%;
+}
