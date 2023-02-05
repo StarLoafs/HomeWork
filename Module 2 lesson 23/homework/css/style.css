@@ -1,0 +1,30 @@
+.window-1, .window-2 {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.window-1__block, .window-2__block {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 5px;
+}
+
+.line {
+  height: 2px;
+  background-color: #000;
+}
+/* --------------------------------------------------------------- */
+
+/* Вариант №1 */
+
+.window-1__block {
+  background: url("../images/capybara.jpeg") 50% 50% no-repeat, linear-gradient(#e7eb00, #ff6600);
+}
+
+/* Вариант №2 */
+
+.window-2__block {
+  background-image: url("../images/capybara.jpeg"), linear-gradient(#ae00ff, #0004ff);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

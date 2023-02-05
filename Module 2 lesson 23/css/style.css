@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 5px;
+}
+
+/* --------------------------------------------------------------- */
+
+.block {
+  /* background: #333; */
+  /* background: linear-gradient(#333, #797979 56%); */
+  /* background: radial-gradient(#000000, #ffffff); */
+  background: url("../images/pug.jpg") 0 0 / auto 300px no-repeat, url("../images/capybara.jpg") 100% 0 / auto 400px no-repeat, #333;
+
+
+  /* background-color: #fff; */
+  /* background-image: url(); */
+  /* background-repeat: space; */
+  /* background-position: x y; */
+  /* background-attachment: local; */
+  /* background-size: auto; */
+}
